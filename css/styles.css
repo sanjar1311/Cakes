@@ -40,8 +40,8 @@ img {
 
 .container {
   max-width: 1260px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
   /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); */
@@ -51,6 +51,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 130px;
 }
 .logo {
   margin-right: 24px;
@@ -83,6 +84,81 @@ img {
 .nav__link--active {
   color: #f50049;
 }
+
+    /* MAIN */
+
+              /* HERO SECTION */
+
+.hero__title {
+  color: #2e2829;
+  font-size: 78px;
+  text-align: left;
+  letter-spacing: 0.44px;
+  max-width: 353px;
+  margin: 0;
+  margin-bottom: 31px;
+}
+
+.hero__text {
+  font-size: 41px;
+  color: #32313d;
+  text-align: left;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 70px;
+}
+
+.hero__link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f50049;
+  border-radius: 26px;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 21px 67px;
+}
+
+.about {
+  margin-top: 148px;
+  display: flex;
+  align-items: center;
+}
+
+.about__text--ingrident {
+  width: 267px;
+  display: flex;
+  align-items: center;
+}
+
+.about__text--dastavka{
+  display: flex;
+  width: 300px;
+  align-items: flex-end;
+}
+
+.about__text--ingrident::before{
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-image: url("../img/иконка_ингредиенты.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+}
+
+.about__text--dastavka::before{
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-image: url("../img/иконка_доставка.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+}
+
 
 
 
