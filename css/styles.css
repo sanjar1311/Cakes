@@ -15,8 +15,11 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #fbebea;
   color: #222;
+  background-image: url("../img/4-layers.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 350px)  105px;
 }
 
 img {
@@ -44,6 +47,42 @@ img {
   /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); */
 }
 
+.site-header__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo {
+  margin-right: 24px;
+}
+
+.nav__list {
+  display: flex;
+  font-weight: normal;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #2d2829;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin:0 23px;
+}
+
+.phone-number {
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 15px;
+  color: #2d2829;
+  font-weight: 700;
+}
+
+.nav__link--active {
+  color: #f50049;
+}
 
 
 
